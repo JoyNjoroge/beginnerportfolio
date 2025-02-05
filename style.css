@@ -192,3 +192,58 @@ body {
 #connect {
     color: orange
 }
+@media (max-width: 768px) {
+    /* Adjustments for tablets and small screens */
+    .gradient-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gradient-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .navbar a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjustments for mobile phones */
+    .overlay h1 {
+        font-size: 3rem;
+    }
+    .navbar a {
+        font-size: 0.8rem;
+        padding: 8px 15px;
+    }
+    .gradient-box {
+        width: 90%;
+    }
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.gradient-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gradient-box {
+    width: 30%; /* Changed to percentage */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
