@@ -91,13 +91,14 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
     margin-top: 50px;
 }
 
 .gradient-box {
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 30%; /* Changed to percentage */
     text-align: center;
     color: white;
 }
@@ -192,6 +193,7 @@ body {
 #connect {
     color: orange
 }
+
 @media (max-width: 768px) {
     /* Adjustments for tablets and small screens */
     .gradient-section {
@@ -224,26 +226,4 @@ body {
     .gradient-box {
         width: 90%;
     }
-}
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    overflow-x: hidden;
-}
-
-.gradient-section {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.gradient-box {
-    width: 30%; /* Changed to percentage */
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
 }
