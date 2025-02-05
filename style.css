@@ -227,3 +227,83 @@ body {
         width: 90%;
     }
 }
+/* Projects Section */
+#projects {
+    margin: 50px 0;
+}
+#projects .project {
+    margin-bottom: 20px;
+}
+#projects h3 {
+    font-size: 1.5rem;
+    color: #ffcc00;
+}
+#projects p {
+    font-size: 1rem;
+}
+
+/* Contact Form Section */
+#contact-form {
+    margin: 50px 0;
+}
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#contact-form label {
+    font-size: 1rem;
+    color: #ffcc00;
+}
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#contact-form button {
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#contact-form button:hover {
+    background-color: #ffaa00;
+}
+
+/* Testimonials Section */
+#testimonials {
+    margin: 50px 0;
+}
+#testimonials .testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+#testimonials cite {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #ffcc00;
+}
+
+/* Blog Section */
+#blog {
+    margin: 50px 0;
+}
+#blog .blog-post {
+    margin-bottom: 20px;
+}
+#blog h3 {
+    font-size: 1.5rem;
+    color: #ffcc00;
+}
+#blog p {
+    font-size: 1rem;
+}
+#blog a {
+    color: #ffaa00;
+    text-decoration: none;
+}
