@@ -242,36 +242,8 @@ body {
     font-size: 1rem;
 }
 
-/* Contact Form Section */
-#contact-form {
-    margin: 50px 0;
-}
-#contact-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-#contact-form label {
-    font-size: 1rem;
-    color: #ffcc00;
-}
-#contact-form input,
-#contact-form textarea {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-#contact-form button {
-    padding: 10px;
-    background-color: #ffcc00;
-    border: none;
-    border-radius: 5px;
-    color: black;
-    font-size: 1rem;
-    cursor: pointer;
-}
-#contact-form button:hover {
-    background-color: #ffaa00;
+#formgoogle {
+    font-size: large;
 }
 
 /* Testimonials Section */
