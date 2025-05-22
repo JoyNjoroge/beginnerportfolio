@@ -1,88 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Joy Njoroge's Portfolio">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Joy Njoroge's Portfolio" />
     <title>Portfolio | Joy Njoroge</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
-    <div id="visitor-count" style="position: fixed; bottom: 10px; left: 10px;"></div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div
+      id="visitor-count"
+      style="position: fixed; bottom: 10px; left: 10px"
+    ></div>
+
     <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-container">
-            <div class="overlay">
-                <h1>Joy Njoroge</h1>
-            </div>
+      <div class="hero-container">
+        <div class="overlay">
+          <h1 id="hacker-name">Joy Njoroge</h1>
         </div>
+      </div>
     </section>
 
     <!-- Navigation Bar -->
     <nav class="navbar">
-        <a href="Joy Njoroge Cv.pdf" target="_blank"><i class="fa-solid fa-file"></i> Resume</a>
-        <button id="dark-mode-toggle">🌙</button>
+      <a href="Joy Njoroge Cv.pdf" target="_blank"
+        ><i class="fa-solid fa-file"></i> Resume</a
+      >
     </nav>
-    
+
     <!-- Cool Nerd (Top Left) -->
-    <div class="cool-nerd">Sotware Developer, Data Scientist, Data Analyst, Actuary</div>
-    
+    <div class="cool-nerd">
+      Software Developer, Data Scientist, Data Analyst, Actuary
+    </div>
+
     <!-- Portfolio Introduction -->
     <section id="intro">
-        <h2>This is my portfolio</h2>
-        <p>This page will contain my journey in coding. I will be posting my projects from the beginning to the ultimate level and more stuff.</p>
-    </section>
-
-    <!-- Gradient Sections -->
-    <section class="gradient-section">
-        <div class="gradient-box">
-            <h3>Early Days</h3>
-            <ul>
-                <li><strong>Mininet Networking:</strong> Developed network simulations using Python.</li>
-                <li><strong>TinkerCAD Robotics:</strong> Built and simulated robotic models.</li>
-                <li><strong>House Listing Analysis:</strong> Data science project predicting house prices in Buenos Aires.</li>
-                <li><strong>Habit Tracker App:</strong> A JavaScript project for tracking habits with local storage.</li>
-            </ul>
-        </div>
-        <div class="gradient-box">
-            <h3>Current Work</h3>
-            <p>Projects I'm currently working on and improving.</p>
-        </div>
-        <div class="gradient-box">
-            <h3>Future Goals</h3>
-            <p>Where I see myself heading in coding and software development.</p>
-        </div>
+      <h2>This is my portfolio</h2>
+      <p>
+        This page will contain my journey in coding. I will be posting my
+        projects from the beginning to the ultimate level and more stuff.
+      </p>
     </section>
 
     <!-- About Me Section -->
     <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I'm Joy Njoroge, a passionate software developer and data science enthusiast. My journey started in actuarial science, but my love for coding led me to software development and data science. Currently, I'm sharpening my skills at Moringa School and WorldQuant University, working on real-world projects in Python, JavaScript, and networking.</p>
-            <p>I've worked on various projects, from Mininet networking scripts to TinkerCAD robotics and full-stack web development. My focus now is on building scalable web applications, optimizing performance, and exploring cybersecurity.</p>
-        </div>
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm Joy Njoroge, a passionate software developer and data science
+          enthusiast. My journey started in actuarial science, but my love for
+          coding led me to software development and data science. Currently, I'm
+          sharpening my skills at Moringa School and WorldQuant University,
+          working on real-world projects in Python, JavaScript, and networking.
+        </p>
+        <p>
+          I've worked on various projects, from Mininet networking scripts to
+          TinkerCAD robotics and full-stack web development. My focus now is on
+          building scalable web applications, optimizing performance, and
+          exploring cybersecurity.
+        </p>
+      </div>
     </section>
 
-    <!-- Contact Form Section -->
-    <div id="formgoogle">
-    <a href="https://forms.gle/Vny1LVCkRvXwDmKaA" target="_blank">Contact Me</a>
+    <div>
+      <h2>Projects</h2>
+      <section id="projects">
+        <div class="container">
+          <h2>Featured Projects</h2>
+
+          <!-- Project Cards -->
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="images/sautiapp.png" />
+              </div>
+              <h3>Sauti App</h3>
+              <p>
+                A React app that helps organisations that deal with protecting
+                women and childern and vulnerable persons. It has options to
+                file reports, seek help, counselling, legal issues, etc. It also
+                has a volunteer section for people whou would like to volunteer
+                with the services provided.
+              </p>
+              <a href="https://sautiapp.vercel.app/" target="_blank" class="btn"
+                >View Website</a
+              >
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="images/todolist.png" alt="Simple todolist" />
+              </div>
+              <h3>Simple To-Do List React App</h3>
+              <p>
+                Simple todo list created with React Vite. Its intergrated with a
+                calender so users can store everyday's to do lists.
+              </p>
+              <a
+                href="https://simple-to-do-list-swart.vercel.app/"
+                target="_blank"
+                class="btn"
+                >View Website</a
+              >
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="images/expensetracker.png" alt="Expense tracker" />
+              </div>
+              <h3>Expense Tracker</h3>
+              <p>
+                A simple react app that tracks expenses. Users can add, delete
+                expenses, search, etc.
+              </p>
+              <a
+                href="expense-tracker-alpha-blue.vercel.app"
+                target="_blank"
+                class="btn"
+                >View Website</a
+              >
+            </div>
+
+            <!-- Project 4-->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="images/bot.png" alt="bots assemple" />
+              </div>
+              <h3>Botbattlr</h3>
+              <p>A react app that has an army of bots.</p>
+              <a href="botbattlr-pi.vercel.app" target="_blank" class="btn"
+                >View Website</a
+              >
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+              <div class="project-img">
+                <img src="images/habittracker.png" alt="Habit Tracker App" />
+              </div>
+              <h3>Habit Tracker App</h3>
+              <p>
+                A JavaScript-based web app for tracking daily habits using local
+                storage. It's still a mess will fix it though.
+              </p>
+              <a
+                href="habit-tracker-two-glit.vercel.app"
+                target="_blank"
+                class="btn"
+                >View Website</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <h2>Contact Me</h2>
+      <ul class="social-links">
+        <li>
+          <a href="mailto:njorogejoy78@gmail.com"
+            ><i class="fa-solid fa-envelope"></i> Email</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/JoyNjoroge" target="_blank"
+            ><i class="fa-brands fa-github"></i> GitHub</a
+          >
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@justkunta" target="_blank"
+            ><i class="fa-brands fa-tiktok"></i> TikTok</a
+          >
+        </li>
+        <li>
+          <a href="https://facebook.com/writerjoynjoroge" target="_blank"
+            ><i class="fa-brands fa-facebook"></i> Facebook</a
+          >
+        </li>
+        <li>
+          <a href="https://instagram.com/@just_kunta" target="_blank"
+            ><i class="fa-brands fa-instagram"></i> Instagram</a
+          >
+        </li>
+        <li>
+          <a href="https://wa.me/+13156325279" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
+          >
+        </li>
+      </ul>
     </div>
 
-    <!-- Social Media Handles -->
-    <section id="contact">
-        <div class="container">
-            <h2 id="connect">Let's Connect!!</h2>
-            <ul class="social-links">
-                <li><a href="mailto:njorogejoy78@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a></li>
-                <li><a href="https://github.com/JoyNjoroge" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></li>
-                <li><a href="https://www.tiktok.com/@justkunta" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok</a></li>
-                <li><a href="https://facebook.com/writerjoynjoroge" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
-                <li><a href="https://instagram.com/@just_kunta" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
-                <li><a href="https://wa.me/+13156325279" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
-            </ul>
-        </div>
-    </section>
     <script src="script.js"></script>
-</body>
+  </body>
+  <script>
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const element = document.getElementById("hacker-name");
+    const originalText = element.innerText;
+
+    let iteration = 0;
+    let forward = true;
+
+    setInterval(() => {
+      element.innerText = originalText
+        .split("")
+        .map((letter, index) => {
+          if (index < Math.floor(iteration)) return originalText[index];
+          return letters[Math.floor(Math.random() * 26)];
+        })
+        .join("");
+
+      if (forward) {
+        iteration += 0.5;
+        if (iteration >= originalText.length) {
+          forward = false;
+          setTimeout(() => {}, 300);
+        }
+      } else {
+        iteration = 0;
+        forward = true;
+      }
+    }, 50);
+  </script>
+
+  <div>
+    <footer>
+      <p>Made with ❤️ by Joy Njoroge</p>
+    </footer>
+  </div>
 </html>
